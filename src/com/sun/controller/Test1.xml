@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TCRMService  xmlns="http://www.ibm.com/mdm/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ibm.com/mdm/schema MDMDomains.xsd">
+    <ResponseControl>
+        <ResultCode>SUCCESS</ResultCode>
+        <ServiceTime>16</ServiceTime>
+        <DWLControl>
+            <requesterName>WEIPENSION</requesterName>
+            <requesterLanguage>400</requesterLanguage>
+            <requesterLocale>zh</requesterLocale>
+            <requestID>1004</requestID>
+        </DWLControl>
+    </ResponseControl>
+    <TxResponse>
+        <RequestType>getPartyByAdminSysKey</RequestType>
+        <TxResult>
+            <ResultCode>SUCCESS</ResultCode>
+        </TxResult>
+        <ResponseObject>
+            <TCRMPersonBObj>
+                <PartyId>612130312312323364</PartyId>
+                <DisplayName>张小胖</DisplayName>
+                <PartyType>P</PartyType>
+                <CreatedDate>2011-03-19 05:51:31.203</CreatedDate>
+                <SinceDate>2010-01-01 00:00:00.0</SinceDate>
+                <ClientPotentialType>1</ClientPotentialType>
+                <ClientPotentialValue>客户</ClientPotentialValue>
+                <ClientImportanceType>30</ClientImportanceType>
+                <ClientImportanceValue>铂金卡-手动</ClientImportanceValue>
+                <PartyLastUpdateDate>2017-08-06 16:04:41.812</PartyLastUpdateDate>
+                <PartyLastUpdateUser>BASBatch</PartyLastUpdateUser>
+                <PartyLastUpdateTxId>523150200668176794</PartyLastUpdateTxId>
+                <PersonPartyId>612130312312323364</PersonPartyId>
+                <BirthDate>1989-09-12 00:00:00.0</BirthDate>
+                <BirthPlaceType>36</BirthPlaceType>
+                <BirthPlaceValue>中国</BirthPlaceValue>
+                <GenderType>M</GenderType>
+                <HighestEducationType>6</HighestEducationType>
+                <HighestEducationValue>本科</HighestEducationValue>
+                <NumberOfChildren>1</NumberOfChildren>
+                <PartyActiveIndicator>Y</PartyActiveIndicator>
+                <PersonLastUpdateDate>2017-08-07 05:16:39.0</PersonLastUpdateDate>
+                <PersonLastUpdateUser>MDM_ETL_AM</PersonLastUpdateUser>
+                <PersonLastUpdateTxId>523150200668176794</PersonLastUpdateTxId>
+                <TCRMExtension>
+                    <ExtendedObject>XPersonBObjExt</ExtendedObject>
+                    <XPersonBObjExt>
+                        <XNationTpCdType>1</XNationTpCdType>
+                        <XNationTpCdValue>汉族</XNationTpCdValue>
+                        <XOccupationTpCdType>1</XOccupationTpCdType>
+                        <XOccupationTpCdValue>一级</XOccupationTpCdValue>
+                        <XRiskValue01>20000.00</XRiskValue01>
+                        <XRiskValue02>1.00</XRiskValue02>
+                    </XPersonBObjExt>
+                </TCRMExtension>
+                <TCRMPartyAddressBObj>
+                    <PartyAddressIdPK>161130048509141291</PartyAddressIdPK>
+                    <PartyId>612130312312323364</PartyId>
+                    <AddressId>618350200668183194</AddressId>
+                    <AddressUsageType>1</AddressUsageType>
+                    <AddressUsageValue>通讯地址</AddressUsageValue>
+                    <StartDate>2017-08-06 16:04:41.82</StartDate>
+                    <AddressGroupLastUpdateDate>2017-08-06 16:04:41.905</AddressGroupLastUpdateDate>
+                    <AddressGroupLastUpdateUser>BASBatch</AddressGroupLastUpdateUser>
+                    <AddressGroupLastUpdateTxId>523150200668176794</AddressGroupLastUpdateTxId>
+                    <LocationGroupLastUpdateDate>2017-08-06 16:04:41.879</LocationGroupLastUpdateDate>
+                    <LocationGroupLastUpdateUser>BASBatch</LocationGroupLastUpdateUser>
+                    <LocationGroupLastUpdateTxId>523150200668176794</LocationGroupLastUpdateTxId>
+                    <TCRMAddressBObj>
+                        <AddressIdPK>618350200668183194</AddressIdPK>
+                        <ResidenceType>12</ResidenceType>
+                        <ResidenceValue>邮政信箱</ResidenceValue>
+                        <AddressLineOne>北京市昌平区北清路11号</AddressLineOne>
+                        <City>北京</City>
+                        <ZipPostalCode>100025</ZipPostalCode>
+                        <AddressLastUpdateDate>2017-08-06 16:04:41.83</AddressLastUpdateDate>
+                        <AddressLastUpdateUser>BASBatch</AddressLastUpdateUser>
+                        <AddressLastUpdateTxId>523150200668176794</AddressLastUpdateTxId>
+                        <DWLStatus>
+                            <Status>0</Status>
+                        </DWLStatus>
+                    </TCRMAddressBObj>
+                    <DWLStatus>
+                        <Status>0</Status>
+                    </DWLStatus>
+                </TCRMPartyAddressBObj>
+                <TCRMPartyContactMethodBObj>
+                    <PartyContactMethodIdPK>924130048509145709</PartyContactMethodIdPK>
+                    <PartyId>612130312312323364</PartyId>
+                    <ContactMethodId>660130048509144087</ContactMethodId>
+                    <ContactMethodUsageType>2</ContactMethodUsageType>
+                    <ContactMethodUsageValue>移动电话</ContactMethodUsageValue>
+                    <StartDate>2009-12-31 11:25:10.626</StartDate>
+                    <ContactMethodGroupLastUpdateDate>2011-03-19 05:51:31.457</ContactMethodGroupLastUpdateDate>
+                    <ContactMethodGroupLastUpdateUser>BATCH_MERGE</ContactMethodGroupLastUpdateUser>
+                    <ContactMethodGroupLastUpdateTxId>718130048509119456</ContactMethodGroupLastUpdateTxId>
+                    <LocationGroupLastUpdateDate>2011-03-19 05:51:31.457</LocationGroupLastUpdateDate>
+                    <LocationGroupLastUpdateUser>BATCH_MERGE</LocationGroupLastUpdateUser>
+                    <LocationGroupLastUpdateTxId>718130048509119456</LocationGroupLastUpdateTxId>
+                    <TCRMContactMethodBObj>
+                        <ContactMethodIdPK>660130048509144087</ContactMethodIdPK>
+                        <ReferenceNumber>13911002356</ReferenceNumber>
+                        <ContactMethodType>2</ContactMethodType>
+                        <ContactMethodValue>移动电话</ContactMethodValue>
+                        <ContactMethodLastUpdateDate>2017-05-16 17:12:02.385</ContactMethodLastUpdateDate>
+                        <ContactMethodLastUpdateUser>BPM</ContactMethodLastUpdateUser>
+                        <ContactMethodLastUpdateTxId>987549492592234691</ContactMethodLastUpdateTxId>
+                        <DWLStatus>
+                            <Status>0</Status>
+                        </DWLStatus>
+                    </TCRMContactMethodBObj>
+                    <DWLStatus>
+                        <Status>0</Status>
+                    </DWLStatus>
+                </TCRMPartyContactMethodBObj>
+                <TCRMPartyContactMethodBObj>
+                    <PartyContactMethodIdPK>628130048509147537</PartyContactMethodIdPK>
+                    <PartyId>612130312312323364</PartyId>
+                    <ContactMethodId>801300485091465561</ContactMethodId>
+                    <ContactMethodUsageType>1</ContactMethodUsageType>
+                    <ContactMethodUsageValue>固定电话</ContactMethodUsageValue>
+                    <StartDate>2009-12-31 11:25:10.638</StartDate>
+                    <ContactMethodGroupLastUpdateDate>2015-02-11 16:44:42.426</ContactMethodGroupLastUpdateDate>
+                    <ContactMethodGroupLastUpdateUser>guanpeng</ContactMethodGroupLastUpdateUser>
+                    <ContactMethodGroupLastUpdateTxId>214236442821509969</ContactMethodGroupLastUpdateTxId>
+                    <LocationGroupLastUpdateDate>2015-02-11 16:44:42.424</LocationGroupLastUpdateDate>
+                    <LocationGroupLastUpdateUser>guanpeng</LocationGroupLastUpdateUser>
+                    <LocationGroupLastUpdateTxId>214236442821509969</LocationGroupLastUpdateTxId>
+                    <TCRMContactMethodBObj>
+                        <ContactMethodIdPK>801300485091465561</ContactMethodIdPK>
+                        <ReferenceNumber>01061040000</ReferenceNumber>
+                        <ContactMethodType>1</ContactMethodType>
+                        <ContactMethodValue>固定电话</ContactMethodValue>
+                        <ContactMethodLastUpdateDate>2017-08-06 16:04:41.941</ContactMethodLastUpdateDate>
+                        <ContactMethodLastUpdateUser>BASBatch</ContactMethodLastUpdateUser>
+                        <ContactMethodLastUpdateTxId>523150200668176794</ContactMethodLastUpdateTxId>
+                        <DWLStatus>
+                            <Status>0</Status>
+                        </DWLStatus>
+                    </TCRMContactMethodBObj>
+                    <DWLStatus>
+                        <Status>0</Status>
+                    </DWLStatus>
+                </TCRMPartyContactMethodBObj>
+                <TCRMPartyContactMethodBObj>
+                    <PartyContactMethodIdPK>601300485091498513</PartyContactMethodIdPK>
+                    <PartyId>612130312312323364</PartyId>
+                    <ContactMethodId>625130048509148256</ContactMethodId>
+                    <ContactMethodUsageType>3</ContactMethodUsageType>
+                    <ContactMethodUsageValue>电子邮件</ContactMethodUsageValue>
+                    <StartDate>2009-12-31 11:25:10.638</StartDate>
+                    <ContactMethodGroupLastUpdateDate>2011-03-19 05:51:31.499</ContactMethodGroupLastUpdateDate>
+                    <ContactMethodGroupLastUpdateUser>BATCH_MERGE</ContactMethodGroupLastUpdateUser>
+                    <ContactMethodGroupLastUpdateTxId>718130048509119456</ContactMethodGroupLastUpdateTxId>
+                    <LocationGroupLastUpdateDate>2011-03-19 05:51:31.498</LocationGroupLastUpdateDate>
+                    <LocationGroupLastUpdateUser>BATCH_MERGE</LocationGroupLastUpdateUser>
+                    <LocationGroupLastUpdateTxId>718130048509119456</LocationGroupLastUpdateTxId>
+                    <TCRMContactMethodBObj>
+                        <ContactMethodIdPK>625130048509148256</ContactMethodIdPK>
+                        <ReferenceNumber>test@sohu.com</ReferenceNumber>
+                        <ContactMethodType>3</ContactMethodType>
+                        <ContactMethodValue>电子邮件</ContactMethodValue>
+                        <ContactMethodLastUpdateDate>2014-02-21 10:13:56.721</ContactMethodLastUpdateDate>
+                        <ContactMethodLastUpdateUser>TOLMQ</ContactMethodLastUpdateUser>
+                        <ContactMethodLastUpdateTxId>613929488365419843</ContactMethodLastUpdateTxId>
+                        <DWLStatus>
+                            <Status>0</Status>
+                        </DWLStatus>
+                    </TCRMContactMethodBObj>
+                    <DWLStatus>
+                        <Status>0</Status>
+                    </DWLStatus>
+                </TCRMPartyContactMethodBObj>
+                <!-- 联系方式（可能多个） -->
+                <TCRMPartyContactMethodBObj>
+                    <PartyContactMethodIdPK>1744779365</PartyContactMethodIdPK>
+                    <PartyId>612130312312323364</PartyId>
+                    <ContactMethodId>876429362</ContactMethodId>
+                    <ContactMethodUsageType>6</ContactMethodUsageType>
+                    <ContactMethodUsageValue>微信</ContactMethodUsageValue>
+                    <StartDate>2016-03-10 23:09:27.0</StartDate>
+                    <ContactMethodGroupLastUpdateDate>2016-03-10 23:09:27.0</ContactMethodGroupLastUpdateDate>
+                    <ContactMethodGroupLastUpdateUser>MDM_ETL</ContactMethodGroupLastUpdateUser>
+                    <LocationGroupLastUpdateDate>2016-03-10 23:09:27.0</LocationGroupLastUpdateDate>
+                    <LocationGroupLastUpdateUser>MDM_ETL</LocationGroupLastUpdateUser>
+                    <TCRMContactMethodBObj>
+                        <ContactMethodIdPK>876429362</ContactMethodIdPK>
+                        <!-- 联系方式内容（类型为6的对应值为openid） -->
+                        <ReferenceNumber>opKa3jhlPptxEuC6xyf3V46trgik</ReferenceNumber>
+                        <!-- 联系方式类型（6-微信openid，有可能不存在） -->
+                        <ContactMethodType>6</ContactMethodType>
+                        <ContactMethodValue>微信</ContactMethodValue>
+                        <ContactMethodLastUpdateDate>2016-08-26 14:32:53.095</ContactMethodLastUpdateDate>
+                        <ContactMethodLastUpdateUser>WECHAT</ContactMethodLastUpdateUser>
+                        <ContactMethodLastUpdateTxId>237147219317281046</ContactMethodLastUpdateTxId>
+                        <DWLStatus>
+                            <Status>0</Status>
+                        </DWLStatus>
+                    </TCRMContactMethodBObj>
+                    <DWLStatus>
+                        <Status>0</Status>
+                    </DWLStatus>
+                </TCRMPartyContactMethodBObj>
+                <TCRMPartyIdentificationBObj>
+                    <IdentificationIdPK>424130048509138737</IdentificationIdPK>
+                    <PartyId>612130312312323364</PartyId>
+                    <IdentificationType>1</IdentificationType>
+                    <IdentificationValue>身份证</IdentificationValue>
+                    <IdentificationNumber>1103432343423432718</IdentificationNumber>
+                    <StartDate>2011-02-12 04:17:37.886</StartDate>
+                    <PartyIdentificationLastUpdateDate>2013-12-22 20:04:02.146</PartyIdentificationLastUpdateDate>
+                    <PartyIdentificationLastUpdateUser>BPM</PartyIdentificationLastUpdateUser>
+                    <PartyIdentificationLastUpdateTxId>789138771384200636</PartyIdentificationLastUpdateTxId>
+                    <DWLStatus>
+                        <Status>0</Status>
+                    </DWLStatus>
+                </TCRMPartyIdentificationBObj>
+                <TCRMAdminContEquivBObj>
+                    <AdminContEquivIdPK>441130048509149969</AdminContEquivIdPK>
+                    <PartyId>612130312312323364</PartyId>
+                    <AdminPartyId>94213233</AdminPartyId>
+                    <AdminSystemType>4</AdminSystemType>
+                    <AdminSystemValue>CPAS</AdminSystemValue>
+                    <ContEquivLastUpdateDate>2013-04-10 11:37:01.186</ContEquivLastUpdateDate>
+                    <ContEquivLastUpdateUser>TOLONLINE</ContEquivLastUpdateUser>
+                    <ContEquivLastUpdateTxId>117136556502095208</ContEquivLastUpdateTxId>
+                    <DWLStatus>
+                        <Status>0</Status>
+                    </DWLStatus>
+                </TCRMAdminContEquivBObj>
+                <TCRMAdminContEquivBObj>
+                    <AdminContEquivIdPK>291300485091508153</AdminContEquivIdPK>
+                    <PartyId>612130312312323364</PartyId>
+                    <AdminPartyId>12345678</AdminPartyId>
+                    <AdminSystemType>1</AdminSystemType>
+                    <AdminSystemValue>CSC</AdminSystemValue>
+                    <ContEquivLastUpdateDate>2013-04-10 11:37:01.191</ContEquivLastUpdateDate>
+                    <ContEquivLastUpdateUser>CSCMQ</ContEquivLastUpdateUser>
+                    <ContEquivLastUpdateTxId>117136556502095208</ContEquivLastUpdateTxId>
+                    <DWLStatus>
+                        <Status>0</Status>
+                    </DWLStatus>
+                </TCRMAdminContEquivBObj>
+                <TCRMAdminContEquivBObj>
+                    <AdminContEquivIdPK>718130048509151920</AdminContEquivIdPK>
+                    <PartyId>612130312312323364</PartyId>
+                    <AdminPartyId>1063243254</AdminPartyId>
+                    <AdminSystemType>5</AdminSystemType>
+                    <AdminSystemValue>TOL</AdminSystemValue>
+                    <ContEquivLastUpdateDate>2013-04-10 11:37:01.198</ContEquivLastUpdateDate>
+                    <ContEquivLastUpdateUser>TOLONLINE</ContEquivLastUpdateUser>
+                    <ContEquivLastUpdateTxId>117136556502095208</ContEquivLastUpdateTxId>
+                    <DWLStatus>
+                        <Status>0</Status>
+                    </DWLStatus>
+                </TCRMAdminContEquivBObj>
+                <TCRMPersonNameBObj>
+                    <PersonNameIdPK>708130048509136238</PersonNameIdPK>
+                    <NameUsageType>1</NameUsageType>
+                    <NameUsageValue>法律</NameUsageValue>
+                    <LastName>张小胖</LastName>
+                    <StdLastName>张小胖</StdLastName>
+                    <PersonPartyId>612130312312323364</PersonPartyId>
+                    <StartDate>2011-02-12 04:17:37.851</StartDate>
+                    <PersonNameLastUpdateDate>2017-08-06 16:04:41.809</PersonNameLastUpdateDate>
+                    <PersonNameLastUpdateUser>BASBatch</PersonNameLastUpdateUser>
+                    <PersonNameLastUpdateTxId>523150200668176794</PersonNameLastUpdateTxId>
+                    <LastUpdatedBy>BASBatch</LastUpdatedBy>
+                    <LastUpdatedDate>2017-08-06 16:04:41.809</LastUpdatedDate>
+                    <DWLStatus>
+                        <Status>0</Status>
+                    </DWLStatus>
+                </TCRMPersonNameBObj>
+                <ComponentID>1000767</ComponentID>
+                <DWLStatus>
+                    <Status>0</Status>
+                </DWLStatus>
+            </TCRMPersonBObj>
+        </ResponseObject>
+    </TxResponse>
+</TCRMService>
